@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.menu-description {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.menu-details {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+.menu-button {
+  background: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.menu-button:hover {
+  background: #e64a19;
+}
+
+.redirect-button {
+  background-color: #f9b22f; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.redirect-button:hover {
+  background-color: #fabe75; 
+  transform: scale(1.05);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.filter-container {
+  background-color: #ffe4c4; /* Нежно-оранжевый */
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.filter-container label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filter-container input {
+  padding: 5px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter-container button {
+  background-color: #f4a460; /* Темно-оранжевый */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-container button:hover {
+  background-color: #d2691e; /* Более насыщенный цвет */
+}
+
+.menu-container {
+  max-width: 800px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.menu-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
